@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
 
 body {
   background-color: #474545;
@@ -11,9 +7,11 @@ body {
 header {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  background-color: #c7cae3fc;
   padding: 20px;
+  font-size: 35px;
+  color: ghostwhite;
+  font-family: "Do Hyeon", sans-serif;
+  /* align-items: center; */
 }
 
 .search_form {
@@ -28,6 +26,7 @@ header {
 .search_input {
   margin: auto 10px auto 20px;
   padding: 8px;
+  width: 250px;
 }
 
 .search_form > p {
@@ -37,6 +36,10 @@ header {
 
 .search_form button {
   padding: 8px;
+}
+
+.form_group {
+  margin-right: 20px;
 }
 
 .card_list {

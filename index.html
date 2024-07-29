@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>추천 영화 콜렉션</title>
+    <link rel="stylesheet" href="css/reset.css"> <!-- reset.css가 우선으로 오게 -->
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -16,8 +16,10 @@
 
     <form class="search_form">
         <p>영화 검색 :</p>
-        <input type="text" class="search_input" placeholder="영화 제목 검색">
-        <button type="submit" class="search_btn">검색</button>
+        <div class="form-group">
+            <input type="text" class="search_input" placeholder="영화 제목 검색">
+            <button type="submit" class="search_btn">검색</button>
+        </div>
     </form>
 
     <section class="card_list">
