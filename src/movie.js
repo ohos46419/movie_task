@@ -1,10 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-  var img = document.getElementById("deadPool");
-
-  img.addEventListener("click", function () {
-    alert("영화 id: 값");
-  });
-});
+export let getMovies = () => [1, 2, 3];
 
 {
   ("page");
@@ -25,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "The Shawshank Redemption",
       video: false,
       vote_average: 8.707,
-      vote_count: 26517,
+      vote_count: 26517
     },
     {
       adult: false,
@@ -42,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "The Godfather",
       video: false,
       vote_average: 8.7,
-      vote_count: 20130,
+      vote_count: 20130
     },
     {
       adult: false,
@@ -59,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "The Godfather Part II",
       video: false,
       vote_average: 8.576,
-      vote_count: 12146,
+      vote_count: 12146
     },
     {
       adult: false,
@@ -76,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Schindler's List",
       video: false,
       vote_average: 8.566,
-      vote_count: 15554,
+      vote_count: 15554
     },
     {
       adult: false,
@@ -93,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "12 Angry Men",
       video: false,
       vote_average: 8.544,
-      vote_count: 8399,
+      vote_count: 8399
     },
     {
       adult: false,
@@ -110,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Spirited Away",
       video: false,
       vote_average: 8.537,
-      vote_count: 16156,
+      vote_count: 16156
     },
     {
       adult: false,
@@ -127,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Dilwale Dulhania Le Jayenge",
       video: false,
       vote_average: 8.536,
-      vote_count: 4408,
+      vote_count: 4408
     },
     {
       adult: false,
@@ -144,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "The Dark Knight",
       video: false,
       vote_average: 8.516,
-      vote_count: 32275,
+      vote_count: 32275
     },
     {
       adult: false,
@@ -161,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Parasite",
       video: false,
       vote_average: 8.508,
-      vote_count: 17808,
+      vote_count: 17808
     },
     {
       adult: false,
@@ -178,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "The Green Mile",
       video: false,
       vote_average: 8.506,
-      vote_count: 17036,
+      vote_count: 17036
     },
     {
       adult: false,
@@ -195,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Your Name.",
       video: false,
       vote_average: 8.489,
-      vote_count: 11132,
+      vote_count: 11132
     },
     {
       adult: false,
@@ -212,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Pulp Fiction",
       video: false,
       vote_average: 8.487,
-      vote_count: 27420,
+      vote_count: 27420
     },
     {
       adult: false,
@@ -229,7 +223,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "The Lord of the Rings: The Return of the King",
       video: false,
       vote_average: 8.482,
-      vote_count: 23677,
+      vote_count: 23677
     },
     {
       adult: false,
@@ -246,7 +240,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Forrest Gump",
       video: false,
       vote_average: 8.476,
-      vote_count: 26924,
+      vote_count: 26924
     },
     {
       adult: false,
@@ -263,7 +257,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "GoodFellas",
       video: false,
       vote_average: 8.464,
-      vote_count: 12576,
+      vote_count: 12576
     },
     {
       adult: false,
@@ -280,7 +274,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "The Good, the Bad and the Ugly",
       video: false,
       vote_average: 8.464,
-      vote_count: 8395,
+      vote_count: 8395
     },
     {
       adult: false,
@@ -297,7 +291,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Seven Samurai",
       video: false,
       vote_average: 8.46,
-      vote_count: 3564,
+      vote_count: 3564
     },
     {
       adult: false,
@@ -314,7 +308,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Impossible Things",
       video: false,
       vote_average: 8.458,
-      vote_count: 380,
+      vote_count: 380
     },
     {
       adult: false,
@@ -331,7 +325,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Grave of the Fireflies",
       video: false,
       vote_average: 8.458,
-      vote_count: 5336,
+      vote_count: 5336
     },
     {
       adult: false,
@@ -348,8 +342,8 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Cinema Paradiso",
       video: false,
       vote_average: 8.45,
-      vote_count: 4251,
-    },
+      vote_count: 4251
+    }
   ],
     "total_pages";
   477, "total_results";

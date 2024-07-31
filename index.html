@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>추천 영화 콜렉션</title>
-    <link rel="stylesheet" href="css/reset.css"> <!-- reset.css가 우선으로 오게 -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style/reset.css"> <!-- reset.css가 우선으로 오게 -->
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="src/movie.js"></script>
+    <script defer src="src/search.js"></script>
 </head>
 
 <body>
@@ -22,7 +24,7 @@
         </div>
     </form>
 
-    <section class="card_list">
+    <ul class="card_list">
 
         <div class="movie_card">
             <img id="deadPool"
@@ -118,10 +120,7 @@
             </div>
         </div>
 
-    </section>
-
-    <script src="js/movie.js">
-    </script>
+    </ul>
 </body>
 
 </html>
